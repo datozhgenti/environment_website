@@ -9,6 +9,13 @@ export default {
 </script>
 
 <style>
+/* body styles */
+
+body,
+html {
+  font-size: calc((16px / 100%) * 100);
+}
+
 /* css variables */
 
 :root {
@@ -20,6 +27,7 @@ export default {
   --secondary-text: #525560;
   --off-white: #ebf0f9;
   --border: #e5e5e5;
+  --environment-color: #111111;
 }
 
 /* all text colors */
@@ -30,6 +38,10 @@ export default {
 
 .secondary-text {
   color: var(--secondary-text);
+}
+
+.environment-text {
+  color: var(--environment-color);
 }
 
 /* all background colors */
@@ -142,7 +154,90 @@ export default {
 /* wrapper element */
 
 .wrapper {
-  max-width: 500px;
+  max-width: 1279px;
   margin: 0 auto;
 }
+
+/* a tag default styles cancel */
+
+a {
+  text-decoration: none;
+}
+
+/* displays */
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+/* justify-content styles */
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+/* align-item styles */
+
+.align-center {
+  align-items: center;
+}
+
+/* button styles */
+
+.primary-btn,
+.secondary-btn {
+  padding: 16px 32px;
+}
+
+.navbar-btn,
+.primary-btn,
+.secondary-btn {
+  border: none;
+  border-radius: 4px;
+}
+
+.navbar-btn,
+.primary-btn {
+  color: #ffffff;
+}
+
+.primary-btn {
+  background-color: var(--green-primary);
+}
+
+.secondary-btn {
+  background-color: #ffffff;
+  color: var(--primary-text);
+}
+
+.navbar-btn {
+  background-color: var(--primary-text);
+  padding: 12px 32px;
+}
+
+/* cursors */
+
+.pointer {
+  cursor: pointer;
+}
+
+/* positions */
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* center item */
 </style>
