@@ -44,6 +44,10 @@ html {
   color: var(--environment-color);
 }
 
+.white-text {
+  color: #ffffff;
+}
+
 /* all background colors */
 
 .bg-green-primary {
@@ -64,6 +68,10 @@ html {
 
 .bg-off-white {
   background-color: var(--off-white);
+}
+
+.bg-white {
+  background-color: #ffffff;
 }
 
 /* all fonts  */
@@ -123,6 +131,10 @@ html {
 
 .font-14 {
   font-size: 0.875em;
+}
+
+.font-18 {
+  font-size: 1.125em;
 }
 
 .font-20 {
@@ -239,5 +251,37 @@ a {
   position: absolute;
 }
 
-/* center item */
+.relative {
+  position: relative;
+}
+
+/* top from fixed nav */
+
+.top-from-nav {
+  margin-top: 64px;
+}
+
+/* widths */
+
+.w100 {
+  width: 100%;
+}
+
+/* heights */
+
+.h100 {
+  height: 100%;
+}
+
+/* object-fits */
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* paddings */
+
+.left-right-padding-20 {
+  padding: 0 20px;
+}
 </style>

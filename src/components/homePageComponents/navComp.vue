@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed">
+  <nav class="fixed bg-white">
     <div class="wrapper flex space-between">
       <div class="website-name-wrapper flex align-center">
         <router-link to="/home" class="environment-text font-bold font-20 block"
@@ -15,14 +15,14 @@
           >{{ link.page }}</router-link
         >
         <buttonComp
-          class="navbar-btn margin-top-bottom-12"
+          class="navbar-btn"
           @click="$router.push('/donation')"
         ></buttonComp>
       </div>
       <div class="responsive-links-wrapper flex align-center">
         <img
           src="@/assets/burger-menu-icons/burger-menu-icon.svg"
-          class="block margin-top-bottom-12"
+          class="block"
           alt="burger menu icon"
           @click="activateResponsiveNav"
         />
@@ -47,7 +47,7 @@
                 >
                 <buttonComp
                   class="navbar-btn"
-                  @click="$router.push('/donation')"
+                  @click="enterDonationPage"
                 ></buttonComp>
               </div>
             </div>
@@ -80,6 +80,20 @@ export default {
     deactivateResponsiveNav() {
       this.responsiveNavActive = false;
     },
+
+    enterDonationPage() {
+      this.$router.push("/donation");
+
+      this.deactivateResponsiveNav();
+    },
+  },
+  mounted() {
+    const mediaQuery = window.matchMedia("(min-width:53.125em)");
+    window.addEventListener("resize", () => {
+      if (mediaQuery.matches) {
+        this.responsiveNavActive = false;
+      }
+    });
   },
 };
 </script>
@@ -98,7 +112,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
-  padding: 0 20px;
+  padding: 0.75em 20px;
 }
 
 img {
@@ -118,6 +132,7 @@ img {
   z-index: 20;
   background: #ffffff;
   padding: 20px;
+  overflow: auto;
 }
 
 .links {
@@ -131,7 +146,7 @@ img {
   margin-top: 10px;
 }
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 53.125em) {
   .links-wrapper {
     display: none;
   }
@@ -141,7 +156,7 @@ img {
   }
 }
 
-@media all and (max-width: 521px) {
+@media all and (max-width: 32.5625em) {
   .links a {
     font-size: 9vw;
   }
@@ -153,17 +168,16 @@ img {
   gap: 40px;
 }
 
-.margin-top-bottom-12 {
-  margin: 12px 0;
+.fade-enter-from {
+  opacity: 0;
 }
 
-.fade-enter-from,
 .fade-leave-to {
-  opacity: 0;
+  transform: translateX(100%);
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 500ms ease-in-out;
+  transition: 500ms ease-in-out;
 }
 </style>
