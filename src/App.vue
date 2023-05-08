@@ -9,13 +9,6 @@ export default {
 </script>
 
 <style>
-/* body styles */
-
-body,
-html {
-  font-size: calc((16px / 100%) * 100);
-}
-
 /* css variables */
 
 :root {
@@ -283,5 +276,33 @@ a {
 
 .left-right-padding-20 {
   padding: 0 20px;
+}
+
+.left-padding-95 {
+  padding-left: 95px;
+}
+
+/* letter spacings */
+
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+/* border-radiuses */
+
+.border-radius-12 {
+  border-radius: 12px;
+}
+
+/* flex-wraps */
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* flex-shrinks */
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 </style>

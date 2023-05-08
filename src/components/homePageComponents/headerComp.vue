@@ -5,7 +5,6 @@
       src="@/assets/videos/waterfall.mp4"
       class="w100 h100 block object-fit-cover"
       loop
-      muted="false"
     ></video>
     <div class="header-content absolute left-right-padding-20">
       <div class="wrapper">
@@ -43,10 +42,8 @@
             </div>
           </div>
         </div>
-        <div class="statistics-wrapper flex space-between">
-          <p class="font-medium font-18 white-text relative">
-            23,800 trees planted
-          </p>
+        <div class="statistics-wrapper flex">
+          <p class="font-medium font-18 white-text">23,800 trees planted</p>
           <div class="line-wrapper flex align-center">
             <hr class="w100" />
           </div>
@@ -123,6 +120,7 @@ header {
 .line-wrapper {
   width: 67.3%;
   margin-right: 23px;
+  margin-left: 25px;
 }
 
 hr {
