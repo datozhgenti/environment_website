@@ -161,13 +161,13 @@ img {
     font-size: 9vw;
   }
 }
-</style>
 
-<style>
 .row-gap-40 {
   gap: 40px;
 }
+</style>
 
+<style>
 .fade-enter-from {
   opacity: 0;
 }

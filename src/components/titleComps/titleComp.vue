@@ -19,6 +19,10 @@ export default {};
   left: -95px;
 }
 
+.title {
+  text-transform: uppercase;
+}
+
 @media all and (max-width: 35.3125em) {
   .title::before {
     display: none;

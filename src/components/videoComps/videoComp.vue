@@ -16,7 +16,8 @@
 </template>
 
 <script setup>
-import { ref, defineProps } from "vue";
+/* eslint-disable */
+import { ref } from "vue";
 
 defineProps({
   videoUrl: {

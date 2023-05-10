@@ -1,17 +1,20 @@
 <template>
   <section class="about-section">
     <div class="wrapper">
-      <div class="about-top flex space-between wrap">
-        <div class="left left-padding-95 flex-shrink-0">
+      <div class="about-top flex space-between wrap row-gap-40">
+        <div
+          class="left left-padding-95 flex-shrink-0 margin-right-40"
+          id="left-responsive"
+        >
           <titleComp class="margin-top-62"></titleComp>
-          <h2 class="font-48 primary-text">
+          <h2 class="font-48 primary-text" id="header-responsive">
             We help nature smile and survive everywhere
           </h2>
-          <p class="secondary-text margin-bottom-34">
+          <p class="secondary-text margin-bottom-34 line-height-26">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
-          <p class="secondary-text">
+          <p class="secondary-text line-height-26">
             Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
             commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
             id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
@@ -23,7 +26,7 @@
             >Learn more</buttonComp
           >
         </div>
-        <div class="right flex-shrink-0">
+        <div class="right flex-shrink-0 right-width-480" id="right-responsive">
           <videoComp></videoComp>
         </div>
       </div>
@@ -79,21 +82,15 @@ export default {
   margin-top: 48px;
 }
 
-.about-top {
-  row-gap: 20px;
-}
-
 .about-bottom {
   margin-top: 64px;
 }
 
 .left {
   width: 703px;
-  margin-right: 40px;
 }
 
 .right {
-  width: 23.75em;
   height: 36.125em;
 }
 
@@ -103,24 +100,6 @@ h2 {
 
 .logos-wrapper {
   margin-top: 32px;
-}
-
-@media all and (max-width: 72.625em) {
-  .left {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .right {
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 42.5em) {
-  h2 {
-    font-size: 7vw;
-  }
 }
 
 @media all and (max-width: 58.75em) {

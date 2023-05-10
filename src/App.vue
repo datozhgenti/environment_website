@@ -134,6 +134,10 @@ export default {
   font-size: 1.25em;
 }
 
+.font-24 {
+  font-size: 1.5em;
+}
+
 .font-28 {
   font-size: 1.75em;
 }
@@ -260,6 +264,10 @@ a {
   width: 100%;
 }
 
+.right-width-480 {
+  width: 30em;
+}
+
 /* heights */
 
 .h100 {
@@ -275,11 +283,17 @@ a {
 /* paddings */
 
 .left-right-padding-20 {
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .left-padding-95 {
   padding-left: 95px;
+}
+
+.padding-top-bottom-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 /* letter spacings */
@@ -304,5 +318,81 @@ a {
 
 .flex-shrink-0 {
   flex-shrink: 0;
+}
+
+/* margins */
+
+.margin-right-40 {
+  margin-right: 40px;
+}
+
+/* gaps */
+
+.row-gap-40 {
+  row-gap: 40px;
+}
+
+/* line heights */
+
+.line-height-26 {
+  line-height: 26px;
+}
+
+.line-height-28 {
+  line-height: 28px;
+}
+
+.line-height-42 {
+  line-height: 42px;
+}
+
+.line-height-19 {
+  line-height: 19px;
+}
+
+/* background sizes */
+
+.background-size-cover {
+  background-size: cover;
+}
+
+/* background repeat */
+
+.background-no-repeat {
+  background-repeat: no-repeat;
+}
+
+/* opacity */
+
+#opacity-8 {
+  background-color: rgba(11, 7, 6, 0.8);
+}
+
+/* responsive styles */
+
+@media all and (max-width: 72.625em) {
+  #left-responsive {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #right-responsive {
+    width: 100%;
+  }
+
+  .left-padding-95 {
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 42.5em) {
+  #header-responsive {
+    font-size: 7vw;
+  }
+
+  #auto {
+    width: auto;
+  }
 }
 </style>
