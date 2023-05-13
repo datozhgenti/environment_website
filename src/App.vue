@@ -142,6 +142,10 @@ export default {
   font-size: 1.75em;
 }
 
+.font-40 {
+  font-size: 2.5em;
+}
+
 .font-48 {
   font-size: 3em;
 }
@@ -191,6 +195,10 @@ a {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 /* align-item styles */
@@ -308,6 +316,14 @@ a {
   border-radius: 12px;
 }
 
+.border-radius-4 {
+  border-radius: 4px;
+}
+
+.border-radius-full {
+  border-radius: 50%;
+}
+
 /* flex-wraps */
 
 .wrap {
@@ -342,12 +358,20 @@ a {
   line-height: 28px;
 }
 
+.line-height-30 {
+  line-height: 30px;
+}
+
 .line-height-42 {
   line-height: 42px;
 }
 
 .line-height-19 {
   line-height: 19px;
+}
+
+.line-height-56 {
+  line-height: 56px;
 }
 
 /* background sizes */
@@ -366,6 +390,33 @@ a {
 
 #opacity-8 {
   background-color: rgba(11, 7, 6, 0.8);
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+/* margins */
+
+.margin-bottom-32 {
+  margin-bottom: 32px;
+}
+
+/* text aligns */
+
+.text-align-center {
+  text-align: center;
+}
+
+/* tint */
+
+.tint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(11, 7, 6, 0.5);
 }
 
 /* responsive styles */

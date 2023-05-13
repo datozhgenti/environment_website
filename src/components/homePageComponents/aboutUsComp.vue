@@ -31,12 +31,7 @@
         </div>
       </div>
       <div class="about-bottom">
-        <p class="font-medium letter-spacing-2">our Supporters</p>
-        <div class="logos-wrapper flex space-between wrap">
-          <div v-for="logo in logos" :key="logo">
-            <img :src="logo" alt="logo" />
-          </div>
-        </div>
+        <supportersComp class="margin-bottom-32"></supportersComp>
       </div>
     </div>
   </section>
@@ -46,23 +41,11 @@
 import titleComp from "../titleComps/titleComp.vue";
 import buttonComp from "../buttonComps/buttonComp.vue";
 import videoComp from "../videoComps/videoComp.vue";
+import supportersComp from "../supportersComps/supportersComp.vue";
 </script>
 
 <script>
-export default {
-  data() {
-    return {
-      logos: [
-        require("@/assets/supporters_logos/Logo1.png"),
-        require("@/assets/supporters_logos/Logo2.png"),
-        require("@/assets/supporters_logos/Logo3.png"),
-        require("@/assets/supporters_logos/Logo4.png"),
-        require("@/assets/supporters_logos/Logo5.png"),
-        require("@/assets/supporters_logos/Logo6.png"),
-      ],
-    };
-  },
-};
+export default {};
 </script>
 
 <style scoped>
@@ -96,15 +79,5 @@ export default {
 
 h2 {
   margin: 32px 0;
-}
-
-.logos-wrapper {
-  margin-top: 32px;
-}
-
-@media all and (max-width: 58.75em) {
-  .logos-wrapper div {
-    width: 100%;
-  }
 }
 </style>

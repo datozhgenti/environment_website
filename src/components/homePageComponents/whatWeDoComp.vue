@@ -15,24 +15,14 @@
               Suspendisse varius enim in eros elementum tristique.
             </p>
             <div class="do-list">
-              <div
-                class="list-card flex"
+              <whatWeDoCard
                 v-for="(item, index) in listItem"
                 :key="item"
-              >
-                <img :src="item.img" alt="icon" />
-                <div>
-                  <h3
-                    class="font-24 primary-text line-height-28"
-                    :id="index === 0 ? 'first-h3' : ''"
-                  >
-                    {{ item.title }}
-                  </h3>
-                  <p class="secondary-text line-height-26">
-                    {{ item.subTitle }}
-                  </p>
-                </div>
-              </div>
+                :imgProp="item.img"
+                :titleProp="item.title"
+                :subtitleProp="item.subTitle"
+                :idProp="index === 0 ? 'first-h3' : ''"
+              ></whatWeDoCard>
             </div>
           </div>
           <div class="right right-width-480" id="right-responsive">
@@ -85,6 +75,7 @@ export default {
 
 <script setup>
 import titleComp from "@/components/titleComps/titleComp.vue";
+import whatWeDoCard from "../cards/whatWeDoCard.vue";
 </script>
 
 <style scoped>
@@ -102,20 +93,6 @@ h2 {
   margin-top: 32px;
 }
 
-.list-card img {
-  width: 1.75em;
-  height: 1.75em;
-}
-
-.list-card {
-  column-gap: 24px;
-  width: 27.25em;
-}
-
-h3 {
-  margin-bottom: 14px;
-}
-
 .list-card + .list-card {
   margin-top: 24px;
 }
@@ -126,15 +103,5 @@ h3 {
 
 .content {
   margin-top: 32px;
-}
-
-#first-h3 {
-  margin-bottom: 8px;
-}
-
-@media all and (max-width: 33.125em) {
-  .list-card {
-    width: auto;
-  }
 }
 </style>
