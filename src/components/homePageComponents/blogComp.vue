@@ -1,11 +1,7 @@
 <template>
   <section class="blog-section left-right-padding-20">
     <div class="wrapper">
-      <h2
-        class="font-40 font-medium primary-text line-height-56 flex align-center space-between"
-      >
-        Read Our News
-      </h2>
+      <rigthLineTitleComp>Read Our News</rigthLineTitleComp>
       <div class="blog-posts-wrapper flex space-between wrap row-gap-40">
         <postCard
           v-for="post in posts"
@@ -56,23 +52,13 @@ export default {
 
 <script setup>
 import postCard from "../cards/postCard.vue";
+import rigthLineTitleComp from "../titleComps/rigthLineTitleComp.vue";
 </script>
 
 <style scoped>
 .blog-posts-wrapper {
   margin-top: 48px;
   column-gap: 15px;
-}
-
-h2 {
-  column-gap: 23px;
-}
-
-h2:after {
-  content: "";
-  float: right;
-  border-top: 1px solid var(--border);
-  width: 981px;
 }
 
 @media all and (max-width: 41.125em) {
