@@ -7,6 +7,7 @@
   <statsComp></statsComp>
   <ctaComp></ctaComp>
   <blogComp></blogComp>
+  <eventComp></eventComp>
 </template>
 
 <script setup>
@@ -18,6 +19,7 @@ import projectsComp from "@/components/homePageComponents/projectsComp.vue";
 import statsComp from "@/components/homePageComponents/statsComp.vue";
 import ctaComp from "@/components/homePageComponents/ctaComp.vue";
 import blogComp from "@/components/homePageComponents/blogComp.vue";
+import eventComp from "@/components/homePageComponents/eventComp.vue";
 </script>
 
 <style></style>

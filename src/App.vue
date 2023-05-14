@@ -320,6 +320,10 @@ a {
   border-radius: 4px;
 }
 
+.border-radius-8 {
+  border-radius: 8px;
+}
+
 .border-radius-full {
   border-radius: 50%;
 }
@@ -406,6 +410,10 @@ a {
 
 .text-align-center {
   text-align: center;
+}
+
+.self-align-center {
+  align-self: center;
 }
 
 /* tint */
