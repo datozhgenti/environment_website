@@ -126,6 +126,10 @@ export default {
   font-size: 0.875em;
 }
 
+.font-16 {
+  font-size: 1em;
+}
+
 .font-18 {
   font-size: 1.125em;
 }
@@ -340,6 +344,12 @@ a {
   flex-shrink: 0;
 }
 
+/* flex grow */
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 /* margins */
 
 .margin-right-40 {
@@ -376,6 +386,10 @@ a {
 
 .line-height-56 {
   line-height: 56px;
+}
+
+.line-height-23 {
+  line-height: 23px;
 }
 
 /* background sizes */

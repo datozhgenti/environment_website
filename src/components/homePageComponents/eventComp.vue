@@ -1,5 +1,8 @@
 <template>
-  <section class="event-section padding-top-bottom-96 left-right-padding-20">
+  <section
+    class="event-section padding-top-bottom-96 left-right-padding-20"
+    id="events"
+  >
     <div class="wrapper">
       <div class="event-content">
         <rigthLineTitleComp>Our Events</rigthLineTitleComp>

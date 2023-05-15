@@ -1,5 +1,5 @@
 <template>
-  <section class="blog-section left-right-padding-20">
+  <section class="blog-section left-right-padding-20" id="blogs">
     <div class="wrapper">
       <rigthLineTitleComp>Read Our News</rigthLineTitleComp>
       <div class="blog-posts-wrapper flex space-between wrap row-gap-40">

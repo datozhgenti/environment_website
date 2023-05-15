@@ -33,6 +33,14 @@ const routes = [
 const router = createRouter({
   history: createWebHistory("/environment"),
   routes,
+  scrollBehavior(to) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: "smooth",
+      };
+    }
+  },
 });
 
 export default router;

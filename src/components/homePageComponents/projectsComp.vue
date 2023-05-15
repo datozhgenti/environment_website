@@ -1,5 +1,8 @@
 <template>
-  <section class="projects padding-top-bottom-96 left-right-padding-20">
+  <section
+    class="projects padding-top-bottom-96 left-right-padding-20"
+    id="projects"
+  >
     <div class="wrapper">
       <div class="top-content left-padding-95">
         <titleComp>Projects we have done</titleComp>
