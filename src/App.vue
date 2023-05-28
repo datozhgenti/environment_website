@@ -191,6 +191,10 @@ a {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 /* justify-content styles */
 
 .space-between {
@@ -203,6 +207,10 @@ a {
 
 .justify-center {
   justify-content: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
 
 /* align-item styles */
@@ -286,6 +294,10 @@ a {
   height: 100%;
 }
 
+.height-448 {
+  height: 448px;
+}
+
 /* object-fits */
 
 .object-fit-cover {
@@ -306,6 +318,10 @@ a {
 .padding-top-bottom-96 {
   padding-top: 96px;
   padding-bottom: 96px;
+}
+
+.padding-bottom-48 {
+  padding-bottom: 48px;
 }
 
 /* letter spacings */
@@ -392,6 +408,10 @@ a {
   line-height: 23px;
 }
 
+.line-height-38 {
+  line-height: 38px;
+}
+
 /* background sizes */
 
 .background-size-cover {
@@ -414,10 +434,18 @@ a {
   opacity: 0.6;
 }
 
+.opacity-7 {
+  opacity: 0.7;
+}
+
 /* margins */
 
 .margin-bottom-32 {
   margin-bottom: 32px;
+}
+
+.center-with-margin {
+  margin: 0 auto;
 }
 
 /* text aligns */
