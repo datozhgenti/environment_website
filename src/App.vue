@@ -392,6 +392,10 @@ a {
   line-height: 30px;
 }
 
+.line-height-32 {
+  line-height: 32px;
+}
+
 .line-height-42 {
   line-height: 42px;
 }
