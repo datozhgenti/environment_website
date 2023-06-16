@@ -6,7 +6,7 @@ const aboutPage = () => import("@/pages/aboutPage.vue");
 
 const whatWeDoPage = () => import("@/pages/whatWeDoPage.vue");
 
-const mediaPage = () => import("@/pages/whatWeDoPage.vue");
+const mediaPage = () => import("@/pages/mediaPage.vue");
 
 const contactPage = () => import("@/pages/contactPage.vue");
 
