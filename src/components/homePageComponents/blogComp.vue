@@ -1,7 +1,14 @@
 <template>
   <section class="blog-section left-right-padding-20" id="blogs">
     <div class="wrapper">
-      <rigthLineTitleComp>Read Our News</rigthLineTitleComp>
+      <rigthLineTitleComp v-if="textWithLine">Read Our News</rigthLineTitleComp>
+      <div class="another-text text-align-center center-with-margin" v-else>
+        <h2 class="primary-text font-48">Read our Recent News</h2>
+        <p class="secondary-text line-height-26 center-with-margin">
+          Edit this text to make it your own. To edit, simply click directly on
+          the text to start We are served
+        </p>
+      </div>
       <div class="blog-posts-wrapper flex space-between wrap row-gap-40">
         <postCard
           v-for="post in posts"
@@ -47,6 +54,12 @@ export default {
       ],
     };
   },
+  props: {
+    textWithLine: {
+      type: Boolean,
+      default: true,
+    },
+  },
 };
 </script>
 
@@ -65,5 +78,17 @@ import rigthLineTitleComp from "../titleComps/rigthLineTitleComp.vue";
   .blog-posts-wrapper {
     justify-content: center;
   }
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+.another-text {
+  max-width: 30.5em;
+}
+
+.another-text p {
+  max-width: 28.125em;
 }
 </style>

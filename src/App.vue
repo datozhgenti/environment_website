@@ -51,7 +51,8 @@ export default {
   background-color: var(--green-secondary);
 }
 
-.bg-green-ter {
+.bg-green-ter,
+#bg-green-ter {
   background-color: var(--green-tertiary);
 }
 
@@ -450,6 +451,10 @@ a {
 
 .center-with-margin {
   margin: 0 auto;
+}
+
+#padding-top-0 {
+  padding-top: 0;
 }
 
 /* text aligns */
