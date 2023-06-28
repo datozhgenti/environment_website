@@ -196,6 +196,9 @@ a {
   display: inline-block;
 }
 
+.grid {
+  display: grid;
+}
 /* justify-content styles */
 
 .space-between {
@@ -476,6 +479,22 @@ a {
   right: 0;
   bottom: 0;
   background-color: rgba(11, 7, 6, 0.5);
+}
+
+/* input styles */
+
+input,
+textarea {
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
 }
 
 /* responsive styles */
