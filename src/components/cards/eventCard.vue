@@ -1,10 +1,10 @@
 <template>
   <div
-    class="event-card bg-green-secondary border-radius-8 pointer"
+    class="event-card bg-green-secondary border-radius-8 pointer flex align-center"
     @click="$router.push('/event-inner')"
     :style="{ width: cardWidthProp }"
   >
-    <div class="event-card-content flex space-between wrap h100">
+    <div class="event-card-content flex space-between align-center wrap h100">
       <div class="date-wrapper">
         <p class="font-medium font-48 primary-text">{{ dateProp }}</p>
         <p class="font-medium primary-text letter-spacing-2">
@@ -13,7 +13,7 @@
       </div>
       <div
         class="event-title-wrapper"
-        :style="{ width: titleWrapperWidthProp }"
+        :style="{ maxWidth: titleWrapperWidthProp }"
       >
         <p class="font-medium primary-text letter-spacing-2 relative">
           NEXT EVENTS
@@ -51,6 +51,7 @@ export default {
 
 .event-card-content {
   row-gap: 10px;
+  flex-grow: 1;
 }
 
 .date-wrapper {

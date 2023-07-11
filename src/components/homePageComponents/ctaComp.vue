@@ -8,7 +8,9 @@
               You can contribute to make the environment greener!
             </h2>
             <div class="button-row flex justify-center wrap">
-              <buttonComp class="primary-btn">Join as a volunteer</buttonComp>
+              <buttonComp class="primary-btn" @click="popupStore.popupActivate"
+                >Join as a volunteer</buttonComp
+              >
               <buttonComp
                 class="secondary-btn"
                 @click="$router.push('/donation')"
@@ -19,6 +21,7 @@
         </div>
       </div>
     </div>
+    <popupComp v-if="popupStore.popupActive"></popupComp>
   </section>
 </template>
 
@@ -28,6 +31,10 @@ export default {};
 
 <script setup>
 import buttonComp from "../buttonComps/buttonComp.vue";
+import { usePopupStore } from "@/stores/popupStore";
+import popupComp from "./popupComp.vue";
+
+const popupStore = usePopupStore();
 </script>
 
 <style scoped>

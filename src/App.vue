@@ -292,6 +292,10 @@ a {
   width: 30em;
 }
 
+.max-width-768 {
+  max-width: 48em;
+}
+
 /* heights */
 
 .h100 {
@@ -383,6 +387,10 @@ a {
 }
 
 /* line heights */
+
+.line-height-22 {
+  line-height: 22px;
+}
 
 .line-height-26 {
   line-height: 26px;
