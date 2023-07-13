@@ -68,15 +68,15 @@ export default {
     return {
       teamLinks: [
         { name: "About us", to: "/about" },
-        { name: "Team", to: "/about" },
+        { name: "Team", to: { path: "/about", hash: "#team" } },
         { name: "What we do", to: "/what-we-do" },
         { name: "Contact", to: "/contact" },
       ],
       moreLinks: [
-        { name: "Projects", to: { to: "/home", hash: "#projects" } },
-        { name: "Events", to: { to: "/home", hash: "#events" } },
+        { name: "Projects", to: { path: "/home", hash: "#projects" } },
+        { name: "Events", to: { path: "/home", hash: "#events" } },
         { name: "Donate", to: "/donation" },
-        { name: "Blog", to: { to: "/home", hash: "#blogs" } },
+        { name: "Blog", to: { path: "/home", hash: "#blogs" } },
       ],
       connectLinks: [
         { name: "Facebook", to: "https://www.facebook.com/" },

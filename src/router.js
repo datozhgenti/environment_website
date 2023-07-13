@@ -54,8 +54,15 @@ const router = createRouter({
     if (to.hash) {
       return {
         el: to.hash,
+        top: 64,
         behavior: "smooth",
       };
+    } else if (
+      to.path !== "/donation/overview" &&
+      to.path !== "/donation/impact" &&
+      to.path !== "/donation/what-you-get"
+    ) {
+      return { top: 0, behavior: "smooth" };
     }
   },
 });

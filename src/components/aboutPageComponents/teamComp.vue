@@ -1,5 +1,5 @@
 <template>
-  <section class="team-section left-right-padding-20">
+  <section class="team-section left-right-padding-20" id="team">
     <div class="wrapper">
       <div class="text text-align-center center-with-margin">
         <h2 class="font-48 primary-text">Meet our team</h2>

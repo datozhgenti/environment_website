@@ -18,7 +18,7 @@
           <div class="tabs-wrapper flex space-between">
             <router-link
               class="secondary-text font-medium line-height-26"
-              to="/donation"
+              to="/donation/overview"
               >Overview</router-link
             >
             <router-link

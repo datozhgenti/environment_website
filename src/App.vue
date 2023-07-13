@@ -1,11 +1,26 @@
 <template>
-  <router-view></router-view>
+  <preloaderComp v-if="pageIsLoading"></preloaderComp>
+  <router-view v-else></router-view>
 </template>
 
 <script>
 export default {
   name: "App",
+  data() {
+    return {
+      pageIsLoading: true,
+    };
+  },
+  mounted() {
+    window.addEventListener("load", () => {
+      this.pageIsLoading = false;
+    });
+  },
 };
+</script>
+
+<script setup>
+import preloaderComp from "./components/preloader/preloaderComp.vue";
 </script>
 
 <style>
@@ -21,6 +36,12 @@ export default {
   --off-white: #ebf0f9;
   --border: #e5e5e5;
   --environment-color: #111111;
+}
+
+/* section styles */
+
+#team {
+  scroll-margin-top: 100px;
 }
 
 /* all text colors */

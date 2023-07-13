@@ -60,6 +60,22 @@ form {
   row-gap: 32px;
 }
 
+label[for="message"] {
+  margin-bottom: 4px;
+}
+
+textarea {
+  border: 1px solid var(--border);
+  padding: 20px;
+  height: 9.75em;
+}
+
+textarea::placeholder {
+  color: var(--primary-text);
+  line-height: 26px;
+  opacity: 0.3;
+}
+
 @media all and (min-width: 48.4375em) {
   .input-field.textarea,
   .submit-btn-wrapper {

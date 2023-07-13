@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <popupComp v-if="popupStore.popupActive"></popupComp>
+    <popupComp :popupActive="popupStore.popupActive"></popupComp>
   </section>
 </template>
 

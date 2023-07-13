@@ -13,7 +13,11 @@
             Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
             ut sem vitae risus tristique posuere.
           </p>
-          <buttonComp class="primary-btn">Read more</buttonComp>
+          <buttonComp
+            class="primary-btn"
+            @click="$router.push('/blog-post-inner')"
+            >Read more</buttonComp
+          >
         </div>
         <div class="right bg-white border-radius-12">
           <mediaHeaderCard
