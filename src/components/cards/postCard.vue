@@ -1,5 +1,9 @@
 <template>
-  <div class="post-card pointer" @click="$router.push('/blog-post-inner')">
+  <div
+    class="post-card pointer"
+    @click="$router.push('/blog-post-inner')"
+    :data-aos-delay="animDelay"
+  >
     <img :src="imgProp" alt="post image" class="block w100" />
     <h2 class="font-medium font-20 line-height-30">
       {{ titleProp }}
@@ -12,7 +16,7 @@
 
 <script>
 export default {
-  props: ["imgProp", "titleProp", "subtitleProp"],
+  props: ["imgProp", "titleProp", "subtitleProp", "animDelay"],
 };
 </script>
 

@@ -4,7 +4,7 @@
   >
     <div class="wrapper">
       <div class="stats-content flex space-between wrap row-gap-40">
-        <div class="left margin-right-40">
+        <div class="left margin-right-40" data-aos="flip-left">
           <h2 class="font-48 white-text">
             How we spend your donations and where it goes
           </h2>
@@ -22,7 +22,7 @@
             ></statsCard>
           </div>
         </div>
-        <div class="right">
+        <div class="right" data-aos="flip-right">
           <div
             class="chart border-radius-full h100 flex align-center justify-center"
           >

@@ -8,7 +8,7 @@
     ></video>
     <div class="header-content absolute left-right-padding-20">
       <div class="wrapper">
-        <div class="content">
+        <div class="content" data-aos="fade-right">
           <h1 class="white-text font-64">
             Save the environment today for a better tomorrow
           </h1>
@@ -42,7 +42,7 @@
             </div>
           </div>
         </div>
-        <div class="statistics-wrapper flex">
+        <div class="statistics-wrapper flex" data-aos="fade-left">
           <p class="font-medium font-18 white-text">23,800 trees planted</p>
           <div class="line-wrapper flex align-center">
             <hr class="w100" />

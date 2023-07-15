@@ -4,7 +4,7 @@
     id="projects"
   >
     <div class="wrapper">
-      <div class="top-content left-padding-95">
+      <div class="top-content left-padding-95" data-aos="flip-up">
         <titleComp>Projects we have done</titleComp>
         <div class="projects-header-wrapper" id="auto">
           <h2 class="font-48 primary-text" id="header-responsive">

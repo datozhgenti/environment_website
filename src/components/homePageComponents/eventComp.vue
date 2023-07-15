@@ -5,7 +5,7 @@
   >
     <div class="wrapper">
       <div class="event-content">
-        <rigthLineTitleComp>Our Events</rigthLineTitleComp>
+        <rigthLineTitleComp data-aos="fade-left">Our Events</rigthLineTitleComp>
         <div class="event-cards-wrapper flex space-between wrap">
           <eventCard
             v-for="event in eventStore.events"
@@ -13,6 +13,7 @@
             :dateProp="event.date"
             :mounthProp="event.mounth"
             :titleProp="event.title"
+            data-aos="flip-down"
           ></eventCard>
         </div>
       </div>

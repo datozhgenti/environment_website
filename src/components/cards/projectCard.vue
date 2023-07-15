@@ -5,6 +5,8 @@
       backgroundImage: `url(${imgUrl})`,
     }"
     id="margin-0"
+    data-aos="fade-left"
+    :data-aos-delay="animDelay"
   >
     <div class="card-content w100 h100 border-radius-12" v-bind="$attrs">
       <h3 class="font-28 white-text line-height-42">
@@ -24,7 +26,7 @@
 
 <script>
 export default {
-  props: ["imgUrl", "titleProp", "subtitleProp"],
+  props: ["imgUrl", "titleProp", "subtitleProp", "animDelay"],
   inheritAttrs: false,
 };
 </script>

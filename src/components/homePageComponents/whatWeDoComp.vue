@@ -4,9 +4,13 @@
   >
     <div class="wrapper">
       <div class="left-padding-95">
-        <titleComp>What we do</titleComp>
+        <titleComp data-aos="fade-right">What we do</titleComp>
         <div class="content flex space-between wrap row-gap-40">
-          <div class="left margin-right-40" id="left-responsive">
+          <div
+            class="left margin-right-40"
+            id="left-responsive"
+            data-aos="fade-down"
+          >
             <h2 class="font-48 primary-text" id="header-responsive">
               We care for earth, care for the coming birth
             </h2>
@@ -25,7 +29,11 @@
               ></whatWeDoCard>
             </div>
           </div>
-          <div class="right right-width-480" id="right-responsive">
+          <div
+            class="right right-width-480"
+            id="right-responsive"
+            data-aos="fade-up"
+          >
             <img
               src="@/assets/whatWeDoCompImgs/man_and_dog.png"
               alt="right img"

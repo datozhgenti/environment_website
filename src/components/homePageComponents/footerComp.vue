@@ -2,8 +2,10 @@
   <footer class="bg-black padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
       <div class="footer-content flex row-gap-40">
-        <h3 class="white-text line-height-23">{Environment</h3>
-        <div class="links-wrapper flex space-between">
+        <h3 class="white-text line-height-23" data-aos="fade-right">
+          {Environment
+        </h3>
+        <div class="links-wrapper flex space-between" data-aos="fade-down">
           <div class="team-wrapper">
             <h2 class="white-text font-16 line-height-26">Our team</h2>
             <div class="team-links-wrapper margin-top-24">
@@ -42,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="form-wrapper">
+        <div class="form-wrapper" data-aos="fade-left">
           <h2 class="font-40 white-text line-height-56">
             Subscribe to get latest updates
           </h2>

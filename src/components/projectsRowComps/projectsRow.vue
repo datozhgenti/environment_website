@@ -6,6 +6,7 @@
       :imgUrl="project.img"
       :titleProp="project.title"
       :subtitleProp="project.subtitle"
+      :animDelay="project.delay"
       :id="index === 1 ? 'opacity-8' : ''"
     ></projectCard>
   </div>
@@ -25,18 +26,21 @@ export default {
           title: "Mission 40K: Tree plantation",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          delay: 200,
         },
         {
           img: require("@/assets/projectSectionPhotos/Image2.png"),
           title: "Weekly cleanliness program in city",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          delay: 400,
         },
         {
           img: require("@/assets/projectSectionPhotos/Image3.png"),
           title: "Wildlife safety program 2021",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          delay: 500,
         },
       ],
     };

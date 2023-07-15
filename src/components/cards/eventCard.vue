@@ -3,6 +3,7 @@
     class="event-card bg-green-secondary border-radius-8 pointer flex align-center"
     @click="$router.push('/event-inner')"
     :style="{ width: cardWidthProp }"
+    data-aos="flip-down"
   >
     <div class="event-card-content flex space-between align-center wrap h100">
       <div class="date-wrapper">

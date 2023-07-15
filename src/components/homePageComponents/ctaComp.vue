@@ -1,7 +1,10 @@
 <template>
   <section class="cta-section padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
-      <div class="cta-content text-align-center relative border-radius-12">
+      <div
+        class="cta-content text-align-center relative border-radius-12"
+        data-aos="flip-down"
+      >
         <div class="tint border-radius-12 flex justify-center">
           <div class="content-wrapper">
             <h2 class="font-48 white-text">

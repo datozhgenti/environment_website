@@ -5,6 +5,7 @@
         <div
           class="left left-padding-95 flex-shrink-0 margin-right-40"
           id="left-responsive"
+          data-aos="flip-left"
         >
           <titleComp class="margin-top-62"></titleComp>
           <h2 class="font-48 primary-text" id="header-responsive">
@@ -26,11 +27,15 @@
             >Learn more</buttonComp
           >
         </div>
-        <div class="right flex-shrink-0 right-width-480" id="right-responsive">
+        <div
+          class="right flex-shrink-0 right-width-480"
+          id="right-responsive"
+          data-aos="flip-right"
+        >
           <videoComp></videoComp>
         </div>
       </div>
-      <div class="about-bottom">
+      <div class="about-bottom" data-aos="flip-down">
         <supportersComp class="margin-bottom-32"></supportersComp>
       </div>
     </div>
