@@ -4,7 +4,7 @@
   >
     <div class="wrapper">
       <div class="header-content flex space-between wrap row-gap-40">
-        <div class="left left-padding-95">
+        <div class="left left-padding-95" data-aos="fade-right">
           <titleComp>TOP NEWS</titleComp>
           <h1 class="font-56 primary-text">
             Our goal is to make water available for everyone
@@ -19,7 +19,7 @@
             >Read more</buttonComp
           >
         </div>
-        <div class="right bg-white border-radius-12">
+        <div class="right bg-white border-radius-12" data-aos="fade-left">
           <mediaHeaderCard
             v-for="blog in blogs"
             :key="blog"

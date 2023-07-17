@@ -1,7 +1,7 @@
 <template>
   <section class="team-section left-right-padding-20" id="team">
     <div class="wrapper">
-      <div class="text text-align-center center-with-margin">
+      <div class="text text-align-center center-with-margin" data-aos="fade-up">
         <h2 class="font-48 primary-text">Meet our team</h2>
         <p class="secondary-text opacity-60 line-height-26">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="mission-section-content">
         <div class="text-row flex space-evenly wrap">
-          <div class="text">
+          <div class="text" data-aos="flip-right">
             <h6 class="letter-spacing-2 font-16 primary-text">OUR MISSION</h6>
             <h3 class="font-28 line-height-42 primary-text">
               We make the world we save our own environment
@@ -16,7 +16,7 @@
               lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
             </p>
           </div>
-          <div class="text">
+          <div class="text" data-aos="flip-left">
             <h6 class="letter-spacing-2 font-16 primary-text">OUR VISION</h6>
             <h3 class="font-28 line-height-42 primary-text">
               Plant more trees to make world air pollution free
@@ -30,7 +30,10 @@
             </p>
           </div>
         </div>
-        <supportersComp class="padding-bottom-48 primary-text"></supportersComp>
+        <supportersComp
+          class="padding-bottom-48 primary-text"
+          data-aos="flip-up"
+        ></supportersComp>
       </div>
     </div>
   </section>

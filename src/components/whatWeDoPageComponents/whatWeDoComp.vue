@@ -2,7 +2,9 @@
   <section class="what-we-do-section bg-green-ter">
     <div class="wrapper">
       <div class="what-we-do-section-content">
-        <h2 class="font-48 primary-text">What we do for the environment</h2>
+        <h2 class="font-48 primary-text" data-aos="flip-down">
+          What we do for the environment
+        </h2>
         <div class="features flex wrap space-between">
           <whatWeDoCard
             v-for="feature in features"

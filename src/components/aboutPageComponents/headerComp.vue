@@ -2,14 +2,14 @@
   <header class="top-from-nav padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
       <div class="header-content-wrapper left-padding-95">
-        <titleComp>Know about us</titleComp>
+        <titleComp data-aos="fade-right">Know about us</titleComp>
         <div class="header-content flex space-between wrap">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <h1 class="font-56 primary-text">
               We are a nonprofit team working worldwide
             </h1>
           </div>
-          <div class="right">
+          <div class="right" data-aos="fade-left">
             <h3 class="font-20 primary-text line-height-30">
               Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
               Nunc ut sem vitae risus tristique posuere.
@@ -26,7 +26,10 @@
     </div>
   </header>
   <div class="wrapper height-448">
-    <videoComp :videoUrl="require('@/assets/videos/saveEnv.mp4')"></videoComp>
+    <videoComp
+      :videoUrl="require('@/assets/videos/saveEnv.mp4')"
+      data-aos="flip-down"
+    ></videoComp>
   </div>
 </template>
 

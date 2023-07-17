@@ -1,5 +1,8 @@
 <template>
-  <section class="journey-section padding-top-bottom-96 left-right-padding-20">
+  <section
+    class="journey-section padding-top-bottom-96 left-right-padding-20"
+    data-aos="fade-left"
+  >
     <div class="wrapper">
       <div
         class="journey-content bg-black border-radius-12 white-text flex space-between wrap row-gap-40"

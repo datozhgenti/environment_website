@@ -2,8 +2,8 @@
   <section class="about padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
       <div class="about-content max-width-768 center-with-margin">
-        <h2 class="primary-text font-48">About</h2>
-        <p class="secondary-text line-height-26">
+        <h2 class="primary-text font-48" data-aos="fade-right">About</h2>
+        <p class="secondary-text line-height-26" data-aos="fade-left">
           Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
           in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
           tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,
@@ -23,8 +23,12 @@
           alt="image"
           class="block w100 object-fit-cover border-radius-12"
           height="320"
+          data-aos="fade-right"
         />
-        <p class="second-paragraph secondary-text line-height-26">
+        <p
+          class="second-paragraph secondary-text line-height-26"
+          data-aos="fade-left"
+        >
           Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
           in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
           tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,

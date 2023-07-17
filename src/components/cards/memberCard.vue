@@ -1,5 +1,5 @@
 <template>
-  <div class="member-card">
+  <div class="member-card" data-aos="fade-right">
     <img
       :src="memberImg"
       alt="member"

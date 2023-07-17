@@ -1,6 +1,6 @@
 <template>
   <p class="font-medium letter-spacing-2" v-bind="$attrs">OUR SUPPORTERS</p>
-  <div class="logos-wrapper flex space-between wrap">
+  <div class="logos-wrapper flex space-between wrap" data-aos="flip-up">
     <div v-for="logo in logos" :key="logo">
       <img :src="logo" alt="logo" />
     </div>

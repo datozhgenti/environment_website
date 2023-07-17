@@ -2,7 +2,7 @@
   <section class="how-to padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
       <div class="how-to-content flex space-between wrap row-gap-40">
-        <div class="left">
+        <div class="left" data-aos="flip-up">
           <h2 class="primary-text font-48">
             How you can contribute to protect Earth
           </h2>
@@ -14,7 +14,7 @@
             imperdiet. Nunc ut sem vitae risus tristique posuere.
           </p>
         </div>
-        <div class="right">
+        <div class="right" data-aos="flip-down">
           <div class="tabs-wrapper flex space-between">
             <router-link
               class="secondary-text font-medium line-height-26"

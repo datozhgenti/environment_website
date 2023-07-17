@@ -2,7 +2,7 @@
   <header class="top-from-nav padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
       <div class="header-content flex space-between wrap row-gap-40">
-        <div class="left left-padding-95">
+        <div class="left left-padding-95" data-aos="fade-down">
           <titleComp>WHAT WE DO</titleComp>
           <h1 class="font-56 primary-text">We are working worldwide</h1>
           <p class="line-height-26 secondary-text">
@@ -12,7 +12,7 @@
             vitae erat.
           </p>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-up">
           <img
             src="@/assets/what-we-do-header-images/clear-environment.png"
             alt="clear environment"

@@ -1,7 +1,10 @@
 <template>
   <header class="top-from-nav padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
-      <div class="header-text center-with-margin text-align-center">
+      <div
+        class="header-text center-with-margin text-align-center"
+        data-aos="fade-right"
+      >
         <p class="primary-text font-medium line-height-26">21 DEC 2021</p>
         <h1 class="primary-text font-56">
           Is climate change happening faster than expected?
@@ -11,7 +14,7 @@
           dignissim nibh sit.
         </p>
       </div>
-      <div class="header-image">
+      <div class="header-image" data-aos="fade-left">
         <img
           src="@/assets/blog-post-inner-photos/header-photo.png"
           alt="blog post photo"

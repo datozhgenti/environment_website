@@ -24,6 +24,11 @@ import preloaderComp from "./components/preloader/preloaderComp.vue";
 </script>
 
 <style>
+body,
+html {
+  overflow-x: hidden;
+}
+
 /* css variables */
 
 :root {

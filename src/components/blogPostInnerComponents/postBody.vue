@@ -2,10 +2,10 @@
   <section class="post-body left-right-padding-20">
     <div class="wrapper">
       <div class="post-content center-with-margin">
-        <h2 class="primary-text font-48">
+        <h2 class="primary-text font-48" data-aos="fade-right">
           Mattis elit dignissim nibh sit. Donec arcu sed elit scelerisque
         </h2>
-        <p class="first secondary-text line-height-26">
+        <p class="first secondary-text line-height-26" data-aos="fade-left">
           Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
           in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
           tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,
@@ -27,10 +27,10 @@
           nunc purus feugiat purus tincidunt neque. Massa ultricies faucibus
           pellentesque risus duis est.
         </p>
-        <h3 class="primary-text font-28 line-height-42">
+        <h3 class="primary-text font-28 line-height-42" data-aos="fade-right">
           Transform Your Idea Into Reality with Ether a Leading Digital Agency
         </h3>
-        <div class="list">
+        <div class="list" data-aos="fade-left">
           <ul>
             <li class="secondary-text line-height-26">
               Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam
@@ -49,10 +49,10 @@
             </li>
           </ul>
         </div>
-        <h3 class="primary-text font-28 line-height-42">
+        <h3 class="primary-text font-28 line-height-42" data-aos="fade-right">
           Transform Your Idea Into Reality with Ether a Leading Digital Agency
         </h3>
-        <p class="second secondary-text line-height-26">
+        <p class="second secondary-text line-height-26" data-aos="fade-left">
           Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
           in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
           tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,

@@ -1,5 +1,5 @@
 <template>
-  <div class="feature-card flex space-between">
+  <div class="feature-card flex space-between" data-aos="fade-right">
     <div class="feature-img">
       <img :src="imgProp" alt="feature" class="block" />
     </div>

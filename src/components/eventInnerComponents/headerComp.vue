@@ -4,11 +4,14 @@
   >
     <div class="wrapper">
       <div class="header-content center-with-margin">
-        <h1 class="primary-text font-56">
+        <h1 class="primary-text font-56" data-aos="flip-down">
           Say no to using plastic and save Earth
         </h1>
         <div class="information flex wrap space-between">
-          <div class="address flex align-center space-between">
+          <div
+            class="address flex align-center space-between"
+            data-aos="fade-right"
+          >
             <img
               src="@/assets/event-inner-header-icons/icon1.png"
               alt="icon"
@@ -20,7 +23,10 @@
               8 Brewery Drive, Hudson, NH 03051, USA
             </p>
           </div>
-          <div class="address flex align-center space-between">
+          <div
+            class="address flex align-center space-between"
+            data-aos="fade-left"
+          >
             <img
               src="@/assets/event-inner-header-icons/icon2.png"
               alt="icon"

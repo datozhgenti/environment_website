@@ -4,7 +4,7 @@
   >
     <div class="wrapper">
       <div class="header-content flex space-between wrap row-gap-40">
-        <div class="left left-padding-95">
+        <div class="left left-padding-95" data-aos="fade-right">
           <titleComp>DONATE</titleComp>
           <h1 class="primary-text font-56">Making a donation for Nature.</h1>
           <p class="secondary-text line-height-26">
@@ -13,7 +13,7 @@
           </p>
           <buttonComp class="primary-btn">Donate now</buttonComp>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <img
             src="@/assets/donate-page-pictures/donate-header-img.png"
             alt="donate img"

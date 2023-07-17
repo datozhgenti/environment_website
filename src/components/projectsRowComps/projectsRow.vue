@@ -17,6 +17,7 @@ import projectCard from "../cards/projectCard.vue";
 </script>
 
 <script>
+import deleteAnimDelays from "@/composables/deleteAnimDelays";
 export default {
   data() {
     return {
@@ -40,10 +41,14 @@ export default {
           title: "Wildlife safety program 2021",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-          delay: 500,
+          delay: 600,
         },
       ],
     };
+  },
+  methods: {},
+  mounted() {
+    deleteAnimDelays("79.5em", this.projects);
   },
 };
 </script>

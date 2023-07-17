@@ -1,5 +1,8 @@
 <template>
-  <section class="awards-section padding-top-bottom-96 left-right-padding-20">
+  <section
+    class="awards-section padding-top-bottom-96 left-right-padding-20"
+    data-aos="flip-right"
+  >
     <div class="wrapper">
       <h2 class="font-48 text-align-center primary-text">
         Awards & Recognitions

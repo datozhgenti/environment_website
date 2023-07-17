@@ -4,7 +4,11 @@
       <rigthLineTitleComp v-if="textWithLine" data-aos="fade-right"
         >Read Our News</rigthLineTitleComp
       >
-      <div class="another-text text-align-center center-with-margin" v-else>
+      <div
+        class="another-text text-align-center center-with-margin"
+        data-aos="fade-left"
+        v-else
+      >
         <h2 class="primary-text font-48">Read our Recent News</h2>
         <p class="secondary-text line-height-26 center-with-margin">
           Edit this text to make it your own. To edit, simply click directly on
@@ -27,6 +31,7 @@
 </template>
 
 <script>
+import deleteAnimDelays from "@/composables/deleteAnimDelays";
 export default {
   data() {
     return {
@@ -67,6 +72,9 @@ export default {
       type: Boolean,
       default: true,
     },
+  },
+  mounted() {
+    deleteAnimDelays("80.75em", this.posts);
   },
 };
 </script>

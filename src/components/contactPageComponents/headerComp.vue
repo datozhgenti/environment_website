@@ -4,7 +4,7 @@
   >
     <div class="wrapper">
       <div class="header-content flex space-between wrap row-gap-40">
-        <div class="left left-padding-95">
+        <div class="left left-padding-95" data-aos="fade-right">
           <titleComp>CONTACT US</titleComp>
           <h1 class="font-56 primary-text">We'd love to hear from you</h1>
           <p class="primary-text line-height-26 opacity-7">
@@ -12,7 +12,7 @@
             contact us through the form or the following details.
           </p>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <div class="info">
             <h6 class="primary-text font-24 line-height-38">Let's talk!</h6>
             <div class="info-content flex space-between">

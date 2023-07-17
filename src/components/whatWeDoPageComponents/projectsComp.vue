@@ -1,7 +1,7 @@
 <template>
   <section class="projects-section padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
-      <div class="heading-wrapper center-with-margin">
+      <div class="heading-wrapper center-with-margin" data-aos="flip-up">
         <h6 class="font-16 letter-spacing-2 primary-text text-align-center">
           PROJECTS WE HAVE DONE
         </h6>

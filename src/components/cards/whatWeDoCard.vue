@@ -1,5 +1,5 @@
 <template>
-  <div class="list-card flex">
+  <div class="list-card flex" data-aos="fade-right">
     <img :src="imgProp" alt="icon" />
     <div>
       <h3 class="font-24 primary-text line-height-28" :id="idProp">

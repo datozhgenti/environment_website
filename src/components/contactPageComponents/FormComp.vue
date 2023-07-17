@@ -1,7 +1,7 @@
 <template>
   <section class="contact-form padding-top-bottom-96 left-right-padding-20">
     <div class="wrapper">
-      <div class="form-wrapper center-with-margin">
+      <div class="form-wrapper center-with-margin" data-aos="flip-down">
         <form @submit.prevent="" class="grid space-between">
           <contactFormInput
             labelProp="First Name"

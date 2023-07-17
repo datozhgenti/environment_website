@@ -4,9 +4,11 @@
   >
     <div class="wrapper">
       <div class="post-body-content left-padding-95 center-with-margin">
-        <titleComp>OUR PROJECT</titleComp>
-        <h1 class="primary-text font-56">Weekly cleanliness program in city</h1>
-        <p class="secondary-text line-height-26">
+        <titleComp data-aos="fade-right">OUR PROJECT</titleComp>
+        <h1 class="primary-text font-56" data-aos="fade-left">
+          Weekly cleanliness program in city
+        </h1>
+        <p class="secondary-text line-height-26" data-aos="fade-right">
           Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in
           in lorem platea mattis. Euismod aenean rhoncus scelerisque amet
           tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien,
@@ -28,15 +30,17 @@
           nunc purus feugiat purus tincidunt neque. Massa ultricies faucibus
           pellentesque risus duis est.
         </p>
-        <div class="project-image-wrapper">
+        <div class="project-image-wrapper" data-aos="fade-left">
           <img
             src="@/assets/project-inner-photos/project_photo.png"
             alt="project photo"
             class="block w100 border-radius-12 object-fit-cover"
           />
         </div>
-        <h2 class="primary-text font-48">Some cool heading</h2>
-        <p class="secondary-text line-height-26">
+        <h2 class="primary-text font-48" data-aos="fade-right">
+          Some cool heading
+        </h2>
+        <p class="secondary-text line-height-26" data-aos="fade-left">
           Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at
           sit convallis blandit blandit in. Maecenas odio orci lectus urna ante
           consequat erat non morbi. Rhoncus ullamcorper dictum sit non semper
@@ -49,7 +53,7 @@
           volutpat amet. Sed mauris amet mi sed purus vitae odio. Mi eu lectus
           suscipit sagittis, ultrices ut dui.
         </p>
-        <div class="list-wrapper">
+        <div class="list-wrapper" data-aos="fade-right">
           <ul>
             <li class="primary-text font-bold line-height-26">
               Posuere sed pulvinar enim faucibus justo, cursus.
@@ -62,7 +66,7 @@
             </li>
           </ul>
         </div>
-        <p class="secondary-text line-height-26">
+        <p class="secondary-text line-height-26" data-aos="fade-left">
           Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at
           sit convallis blandit blandit in. Maecenas odio orci lectus urna ante
           consequat erat non morbi.

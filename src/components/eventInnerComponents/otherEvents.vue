@@ -2,7 +2,9 @@
   <section class="other-events left-right-padding-20">
     <div class="wrapper">
       <div class="other-events-content max-width-768 center-with-margin">
-        <rigthLineTitleComp>Other events</rigthLineTitleComp>
+        <rigthLineTitleComp data-aos="fade-right"
+          >Other events</rigthLineTitleComp
+        >
         <div class="events flex">
           <eventCard
             v-for="event in eventStore.events"
