@@ -48,7 +48,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory("/environment"),
+  history: createWebHistory(),
   routes,
   scrollBehavior(to) {
     if (to.hash) {

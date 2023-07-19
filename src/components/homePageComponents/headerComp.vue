@@ -6,9 +6,13 @@
       class="w100 h100 block object-fit-cover"
       loop
     ></video>
-    <div class="header-content absolute left-right-padding-20">
+    <div
+      class="header-content absolute left-right-padding-20"
+      data-aos="fade-right"
+      data-aos-delay="1000"
+    >
       <div class="wrapper">
-        <div class="content" data-aos="fade-right">
+        <div class="content">
           <h1 class="white-text font-64">
             Save the environment today for a better tomorrow
           </h1>
