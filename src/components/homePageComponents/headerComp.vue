@@ -5,11 +5,12 @@
       src="@/assets/videos/waterfall.mp4"
       class="w100 h100 block object-fit-cover"
       loop
+      poster="@/assets/video-posters/waterfall.jpg"
     ></video>
     <div
       class="header-content absolute left-right-padding-20"
       data-aos="fade-right"
-      data-aos-delay="1000"
+      data-aos-delay="500"
     >
       <div class="wrapper">
         <div class="content">
